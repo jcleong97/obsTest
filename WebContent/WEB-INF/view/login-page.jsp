@@ -10,7 +10,7 @@
 
 
 	<div class="container">
-		<form class="login-form" action=loginPageFunction >
+		<form class="login-form" action=loginPageFunction method="POST">
 			<h2>Login</h2>
 			<input type="text" name="userId" placeholder="User ID" required>
 			<input type="password" name="password" placeholder="Password"
